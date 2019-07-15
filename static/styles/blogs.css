@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grids {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px repeat(2, 1fr);
+}
+
+.title {
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(62, 156, 187);
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
